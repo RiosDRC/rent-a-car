@@ -31,3 +31,36 @@
     opacity: 1;
   }
 }
+
+
+.whiteButton {
+  font-weight: bold;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  width: max-content;
+  padding: 0.3rem 1.2rem;
+}
+
+.whiteButton:hover {
+  background: black;
+  color: white;
+}
+
+input, select {
+  background: #DEE1E4;
+}
+
+.snap-x-proximity {
+  scroll-snap-type: x mandatory;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 1300px) {
+  .md-scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
